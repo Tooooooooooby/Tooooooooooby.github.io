@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'JetBrains Mono';
+    font-weight: 600;
+    font-display: swap;
+    src: url('../font/AlimamaFangYuanTiVF-Thin.ttf') format("truetype");
+}
+@font-face{
+    font-family: 'HarmonyOS Sans SC';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../font/AlimamaAgileVF-Thin.ttf') format("truetype");
+}
+body {
+    font-family: 'JetBrains Mono','HarmonyOS Sans SC';
+}
+
+div { font-family: JetBrains Mono; }	// ��ͨԪ�������� 400 ����ʱ
+h1 { font-family: HarmonyOS Sans SC; }	// ����Ԫ�������� 500 ����ʱ
