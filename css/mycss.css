@@ -1,4 +1,4 @@
-/*所有页面实现毛玻璃特效*/
+/*�?有页面实现毛玻璃特效*/
 #aside-content{
     background: rgba(255,255,255,0);
 }
@@ -21,4 +21,12 @@
 #recent-posts > .recent-post-item {
     background: rgba(255,255,255,0.5);
     backdrop-filter: blur(10px);
+}
+
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
 }
